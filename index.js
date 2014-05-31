@@ -9,4 +9,4 @@ function MsgpackUnpackStream(options) {
   BinaryParseStream.call(this, options)
 }
 
-MsgpackUnpackStream.prototype._parse = require('./parser')
+MsgpackUnpackStream.prototype._parse = require('msgpack-unpack').parser
