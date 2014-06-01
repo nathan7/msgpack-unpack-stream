@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "binary-parse-stream": "^1.2.3",
-    "msgpack-unpack": "^1.0.1"
+    "msgpack-unpack": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1"
